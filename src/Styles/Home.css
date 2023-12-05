@@ -1,0 +1,21 @@
+/* src/App.css */
+/* ... other styles ... */
+
+.home-container {
+    text-align: center; /* Centers the text */
+    padding: 20px; /* Adds some padding around the content */
+}
+
+.ad-container {
+    display: flex; /* Enables flexbox */
+    justify-content: center; /* Centers the child horizontally */
+    align-items: center; /* Centers the child vertically */
+}
+
+.centered-image {
+    max-width: 100%; /* Ensures the image is responsive and does not overflow its container */
+    height: auto; /* Keeps the image's aspect ratio */
+    margin: 20px 0; /* Adds some vertical space above and below the image */
+}
+
+/* ... other styles ... */

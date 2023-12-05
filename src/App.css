@@ -36,3 +36,94 @@
     transform: rotate(360deg);
   }
 }
+/* src/App.css */
+
+/* ... existing styles ... */
+
+nav {
+  width: 100%; /* Full width */
+  background-color: #f0f0f0; /* Background color for the nav bar */
+  height: 60px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around; /* This will distribute space evenly around your links */
+  align-items: center;
+}
+
+nav ul li {
+  padding: 10px 0; /* Vertical padding for the list items */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #0044cc;
+  padding: 10px 15px; /* Padding for the clickable area */
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  background-color: #e6e6e6;
+}
+
+/* Remove margin and padding from the body to ensure the nav sticks to the top */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* ... other styles ... */
+
+/* src/App.css */
+
+/* Reset padding and margin to prevent unwanted spacing */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Styles for the navigation bar */
+nav {
+  width: 100%; /* Full width */
+  background-color: #0044cc; /* Blue background for the nav bar */
+}
+
+/* Styles for the navigation list */
+nav ul {
+  list-style: none;
+  display: flex; /* Align list items in a row */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  height: 60px; /* Set a fixed height for the nav bar */
+}
+
+/* Styles for each navigation list item */
+nav ul li {
+  display: flex; /* Allows us to align text using flexbox */
+}
+
+/* Styles for navigation links */
+nav ul li a {
+  text-decoration: none;
+  color: white; /* White text for links */
+  padding: 10px 15px; /* Spacing around the text */
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Hover effect for links */
+nav ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.3); /* Lighten the link background on hover */
+}
+
+/* Style for the main app container */
+.app-container {
+  margin-top: 60px; /* Push down content to prevent overlap with the fixed nav bar */
+}
+
+/* Other styles... */
